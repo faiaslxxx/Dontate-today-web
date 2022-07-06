@@ -44,26 +44,18 @@ h2 {
   margin-bottom: 60px;
 }
 
-.btns {
+.btn--22 {
+  margin-top: 20px;
   color: rgb(0, 0, 0);
-  font-size: 20px;
+  font-size: 24px;
   padding: 15px 50px;
   border-radius: 50px;
   text-decoration: none;
   background-color: #ffffff;
-  box-shadow: 0px 0px 14px #d6d6d6cc;
-}
-.btn {
-  color: #fff;
-  font-size: 20px;
-  padding: 15px 50px;
-  border-radius: 50px;
-  text-decoration: none;
-  background-color: #d6336c;
-  box-shadow: 0px 0px 14px #de6791be;
+  box-shadow: 0px 0px 14px #ffebf2be;
 }
 
-/* first section start */
+/* first section start here */
 
 .donate-container {
   padding: 96px 0px;
@@ -175,8 +167,6 @@ h2 {
   line-height: 1.6;
 }
 
-/* ////////////// */
-
 .donate--tile {
   margin: auto;
   width: 800px;
@@ -200,23 +190,61 @@ h2 {
 
 /* ///////////////// */
 
-.boxx-width {
-  background-color: tomato;
-  margin: 20px;
-  width: 380px;
-  padding: 20px;
-  height: 400px;
-  border-radius: 8px;
-  background-color: #f1f3f5;
+.container {
+  display: flex;
+  margin-bottom: 150px;
 }
 
-/* ////////////////// */
+.half-width {
+  width: 50%;
+  padding-left: 150px;
+}
+
+.title-donation {
+  font-size: 40px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 25px;
+}
+
+.contribute-text {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.margin--md {
+  margin-bottom: 100px;
+}
+
+.btn {
+  color: #fff;
+  font-size: 20px;
+  padding: 15px 50px;
+  border-radius: 50px;
+  text-decoration: none;
+  background-color: #d6336c;
+  box-shadow: 0px 0px 14px #de6791be;
+}
+
+.marg-l {
+  margin-left: 145px;
+}
+
+.half-width img {
+  width: 75%;
+}
+
+form {
+  height: 150px;
+  background-color: aquamarine;
+}
+
 .content {
   height: 220px;
   color: #fff;
   justify-content: center;
   text-align: center;
-  background-color: rgb(11, 39, 39);
+  background-color: rgb(10, 16, 16);
   padding-top: 65px;
 }
 
