@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  height: 85vh;
+  height: 100vh;
   color: #fff;
   position: relative;
   background-size: cover;
@@ -19,7 +19,7 @@ header {
       rgba(34, 34, 34, 0.577),
       rgba(34, 34, 34, 0.385)
     ),
-    url(images/Header.jpg);
+    url(images/header-img.jpg);
 }
 
 .header-container {
@@ -44,6 +44,15 @@ h2 {
   margin-bottom: 60px;
 }
 
+.btns {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  padding: 15px 50px;
+  border-radius: 50px;
+  text-decoration: none;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 14px #d6d6d6cc;
+}
 .btn {
   color: #fff;
   font-size: 20px;
@@ -164,4 +173,56 @@ h2 {
 .box-texts {
   font-size: 18px;
   line-height: 1.6;
+}
+
+/* ////////////// */
+
+.donate--tile {
+  margin: auto;
+  width: 800px;
+  justify-content: center;
+  margin-bottom: 8s0px;
+}
+
+.donate {
+  color: black;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.box--one {
+  justify-content: center;
+  width: 60px;
+  background-color: yellow;
+}
+
+/* ///////////////// */
+
+.boxx-width {
+  background-color: tomato;
+  margin: 20px;
+  width: 380px;
+  padding: 20px;
+  height: 400px;
+  border-radius: 8px;
+  background-color: #f1f3f5;
+}
+
+/* ////////////////// */
+.content {
+  height: 220px;
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(11, 39, 39);
+  padding-top: 65px;
+}
+
+.first-content {
+  font-size: 40px;
+  font-weight: 400;
+  color: #fa5252;
+  font-family: "Pattaya", sans-serif;
 }
