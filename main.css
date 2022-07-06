@@ -14,7 +14,7 @@ header {
   color: #fff;
   position: relative;
   background-size: cover;
-  margin-bottom: 65px;
+  margin-bottom: 35px;
   background-image: linear-gradient(
       rgba(34, 34, 34, 0.577),
       rgba(34, 34, 34, 0.385)
@@ -54,13 +54,11 @@ h2 {
   box-shadow: 0px 0px 14px #de6791be;
 }
 
-/* secound section start */
+/* first section start */
 
 .donate-container {
   padding: 96px 0px;
-  margin-bottom: 60px;
   text-align: center;
-  /* background-color: #828080; */
 }
 
 .donate-tile {
@@ -112,4 +110,58 @@ h2 {
   font-weight: 200;
   color: #868e96;
   margin-bottom: 55px;
+}
+
+/* second section start */
+
+.plan-container {
+  padding: 96px 0px;
+  margin-bottom: 60px;
+  text-align: center;
+  /* background-color: #828080; */
+}
+
+.box-three {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.box-width {
+  margin: 20px;
+  width: 380px;
+  padding: 20px;
+  height: 400px;
+  border-radius: 8px;
+  background-color: #f1f3f5;
+}
+
+.mt {
+  padding-top: 40px;
+}
+
+.color-1 {
+  background-color: #e6fcf5;
+}
+
+.color-2 {
+  background-color: #fff4e6;
+}
+.color-3 {
+  background-color: #e3fafc;
+}
+
+.margin-md {
+  margin-bottom: 20px;
+}
+
+.box--title {
+  color: black;
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.box-texts {
+  font-size: 18px;
+  line-height: 1.6;
 }
